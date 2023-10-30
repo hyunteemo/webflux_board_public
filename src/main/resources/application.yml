@@ -1,0 +1,9 @@
+server:
+  port: 8088
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/webflux #?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul
+    username: teemo
+    password: password
+    pool:
+      max-size: 100
